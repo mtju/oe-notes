@@ -30,6 +30,9 @@ Profiler methods:
 
 
 ### Output from PAS session (OE 11.5):
+
+In OE 11.5 profiler for PAS seems not to be working correctly.
+
 ```
 .
 3 "terminateFreeABLSessions OpenEdge.ApplicationServer.AgentManager" "" 0
