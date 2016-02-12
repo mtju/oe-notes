@@ -7,9 +7,9 @@ Profiler attributes:
 * __directory__ _char_ init -T or CWD - Directory for debug listing files. Accepts only valid one.
 * __enabled__ _log_ init false - set profiler:listings or profiler:coverage attributes to true before setting profiler:enabled to true. When set to false after use writes accumulated data to profiler output file and flushes.
 * __file-name__ _char_ init "profile.out" - Can't be ?.
-* __listings__ _log_ init false - Generates debug listing file (only first time matters). Sources must be in propath.
+* __listings__ _log_ init false - Generates debug listing file (only first time matters). Sources must be in propath. Generates a very large output file.
 * __profiling__ _log_ - Turn profiling data recording on/off.
-* __trace-filter__ _char_ init ""- CSV of procedure names for detailed timing. Case insensitive, uses matches() function.
+* __trace-filter__ _char_ init ""- CSV of procedure names for detailed timing. Case insensitive, uses matches() function. Generates a detailed tracing data that is used to generate call tree in the profiler viewer.
 * __tracing__ _char_ init "" - CSV of procedure names and listing line numbers corresponding to specific 4GL statements for which the Profiler will record detailed timing information. Format "procedure-name|line-number,procedure-name|line-number". If tracing is set to "" (the empty string), the only tracing information that is recorded is what is specified by the profiler:trace-filter attribute.
 * __coverage__ _log_ init false - Record data for coverage analysis. Identifies the statements that could have been executed for any given procedure. Records the information for coverage analysis only the first time an external .p procedure is executed.
 
@@ -62,3 +62,4 @@ Profiler methods:
 
 ## References
 * http://knowledgebase.progress.com/articles/Article/19495?q=profiler+handle&l=en_US&fs=Search&pn=1
+* https://documentation.progress.com/output/ua/OpenEdge_latest/pdsoe/profiler-tab-(application).html
