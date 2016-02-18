@@ -51,6 +51,5 @@ mergeprop -delta %dlc%\properties\ubroker.properties -validate -type ubroker -no
 ```
 
 ## References
-* OpenEdge® Getting Started: Installation and Configuration
-* http://documentation.progress.com/output/ua/OpenEdge_latest/index.html#page/gsins/mergeprop-utility-overview.html
+* [Mergeprop utility overview](http://documentation.progress.com/output/ua/OpenEdge_latest/index.html#page/gsins/mergeprop-utility-overview.html)
 * http://knowledgebase.progress.com/articles/Article/P116259?q=mergeprop&l=en_US&fs=Search&pn=1
