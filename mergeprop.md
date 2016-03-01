@@ -19,9 +19,20 @@ A tool for scripting edits to *.properties files.
 * -delta _Path to delta file_
 
 # Examples
-## Update
+## List
+### List classic AppServer properties
+```
+mergeprop -type ubroker -action list UBroker.AS.myASname
+```
+Add `>` redirect to file for delta creation.
 
-Update PAS properties:
+## Update
+### Update classic AppServer properties:
+```
+mergeprop -type ubroker -action update -delta `pwd`/delta.txt
+```
+
+### Update PAS properties
 ```
 mergeprop -type none -action update -target `pwd`/openedge.properties -delta `pwd`/delta.txt
 ```
