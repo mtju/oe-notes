@@ -66,3 +66,4 @@ In OE 11.5 profiler for PAS seems not to be working correctly.
 ## References
 * http://knowledgebase.progress.com/articles/Article/19495?q=profiler+handle&l=en_US&fs=Search&pn=1
 * https://documentation.progress.com/output/ua/OpenEdge_latest/pdsoe/profiler-tab-(application).html
+* [Introducing the ABL Editor : Reference : Profiler Editor](https://documentation.progress.com/output/ua/OpenEdge_latest/index.html#page/pdsoe/profiler-editor.html#)
