@@ -58,7 +58,7 @@ mergeprop -delta `pwd`/openedge.properties -validate -type none -target mergepro
 
 To validate an existing ubroker.properties file, use following syntax:
 ```
-mergeprop -delta %dlc%\properties\ubroker.properties -validate -type ubroker -nobackup
+mergeprop -delta $DLC/properties/ubroker.properties -validate -type ubroker -nobackup
 ```
 
 ## References
