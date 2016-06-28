@@ -16,3 +16,6 @@ prowin32 -p myproc.p -wy
 ```
 regsvr32 C:\Progress\OpenEdge\bin\prox.dll
 ```
+
+# Libraries
+## [The Progress STandard Libraries (STL)](http://www.oehive.org/project/lib)
